@@ -38,7 +38,7 @@ The chosen tool for clean and manipulate this data was SQL using Bigquery with s
 from `voltaic-mantra-364014.Cyclistic_project.customers`
 where member_casual = "member"`
 
-**2. Second, the data contained the start destination and end destination by  using date and starting-time and end-time, i used datetime_diff() function to calculate time difference during hich travel. Then averange the time travel in minutes.**
+**2. Second, the data contained the start destination and end destination by  using date and starting-time and end-time, i used datetime_diff() function to calculate time difference during each travel. Then averange the time travel in minutes.**
 
 _Averange  is 73 minutes for casual clients, and 21 minutes for members clients._
 
