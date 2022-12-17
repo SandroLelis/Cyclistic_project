@@ -66,6 +66,8 @@ SELECT distinct member_casual,
 
 _casual clients used 246 times clark st & Elm St, while members use 604 times. clark st & Elm St was most used start station for both client types._ 
 
+![Image](https://public.tableau.com/shared/9Z2R75597?:display_count=n&:origin=viz_share_link)
+
 `select start_station_name, count(start_station_name) as number_start_rides_station from  `voltaic-mantra-364014.Cyclistic_project.customers` where member_casual = "member" group by start_station_name order by number_start_rides_station desc`
 
 _casual clients had 218 times Clark St & Elm St as destination, while members had 675 times Clark St & Elm St as destination._
